@@ -51,7 +51,7 @@ if ($student) {
     //
     if ($apply->date_format=='') $apply->date_format = get_string('date_format_default', 'apply');
     //$data[] = userdate($submit->time_modified, $apply->date_format_default);
-    $data[] = userdate($submit->time_modified, '%y/%m/%d %H:%M');
+    $data[] = userdate($submit->time_modified, '%Y/%m/%d %H:%M');
     //
     $data[] = $submit->version;
 
